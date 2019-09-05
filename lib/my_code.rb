@@ -12,7 +12,7 @@ end
 
 def map_to_double(source_array)
   source_array.length.times do |index|
-    source_array *= 2
+    source_array[index] *= 2
   end
   source_array
 end
