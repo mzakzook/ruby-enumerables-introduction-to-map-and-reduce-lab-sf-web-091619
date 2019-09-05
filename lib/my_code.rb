@@ -31,9 +31,5 @@ def reduce_to_total(source_array, starting_point = 0)
   end
   total
 end
-#   while starting_point < source_array.length do 
-#     total += source_array[starting_point]
-#     starting_point++
-#   end
-#   total
-# end
+
+def reduce_to_all_true()
